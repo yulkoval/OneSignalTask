@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneSignalTask", "OneSignalTask\OneSignalTask.csproj", "{DF7187A2-D1B6-4C50-BC4F-8F7D641A3B4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneSignalTask.Persistence", "OneSignalTask.Persistence\OneSignalTask.Persistence.csproj", "{D0818611-0B5D-4116-8339-C193003356A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneSignalTask.Domain", "OneSignalTask.Domain\OneSignalTask.Domain.csproj", "{40CDF05C-9ABA-47B2-BF0E-59F26A1F43F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneSignalTask.Services", "OneSignalTask.Services\OneSignalTask.Services.csproj", "{877AA1EA-6527-4C93-BDE1-1AD2DA9A4CD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneSignalTask.Services.Test", "OneSignalTask.Services.Test\OneSignalTask.Services.Test.csproj", "{F6D84E68-9848-47CF-A96E-B0E5A161FDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSignalTask.Test", "OneSignalTask.Test\OneSignalTask.Test.csproj", "{F2656173-4388-41C4-BA56-E42A32FD64EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF7187A2-D1B6-4C50-BC4F-8F7D641A3B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7187A2-D1B6-4C50-BC4F-8F7D641A3B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7187A2-D1B6-4C50-BC4F-8F7D641A3B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7187A2-D1B6-4C50-BC4F-8F7D641A3B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0818611-0B5D-4116-8339-C193003356A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0818611-0B5D-4116-8339-C193003356A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0818611-0B5D-4116-8339-C193003356A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0818611-0B5D-4116-8339-C193003356A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CDF05C-9ABA-47B2-BF0E-59F26A1F43F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CDF05C-9ABA-47B2-BF0E-59F26A1F43F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CDF05C-9ABA-47B2-BF0E-59F26A1F43F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CDF05C-9ABA-47B2-BF0E-59F26A1F43F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{877AA1EA-6527-4C93-BDE1-1AD2DA9A4CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877AA1EA-6527-4C93-BDE1-1AD2DA9A4CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877AA1EA-6527-4C93-BDE1-1AD2DA9A4CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877AA1EA-6527-4C93-BDE1-1AD2DA9A4CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D84E68-9848-47CF-A96E-B0E5A161FDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D84E68-9848-47CF-A96E-B0E5A161FDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D84E68-9848-47CF-A96E-B0E5A161FDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D84E68-9848-47CF-A96E-B0E5A161FDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2656173-4388-41C4-BA56-E42A32FD64EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2656173-4388-41C4-BA56-E42A32FD64EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2656173-4388-41C4-BA56-E42A32FD64EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2656173-4388-41C4-BA56-E42A32FD64EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4577D3FC-12D6-45A7-A206-AFDE98797F49}
+	EndGlobalSection
+EndGlobal

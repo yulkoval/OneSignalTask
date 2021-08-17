@@ -1,0 +1,168 @@
+﻿@model OneSignalTask.Domain.Models.App
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>App</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Players)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.Players)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.MessageablePlayers)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.MessageablePlayers)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.GcmKey)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.GcmKey)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ApnsP12Password)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.ApnsP12Password)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.GcmKey)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.GcmKey)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ChromeWebOrigin)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.ChromeWebOrigin)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.CromeWebGcmSenderId)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.CromeWebGcmSenderId)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ChromeWebDefaultNotificationIcon)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.ChromeWebDefaultNotificationIcon)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ChromeWebSubDomain)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.ChromeWebSubDomain)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ApnsEnv)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.ApnsEnv)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ApnsCertificates)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.ApnsCertificates)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.SafariApnsCertificates)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.SafariApnsCertificates)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.SafariSiteOrigin)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.SafariSiteOrigin)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.SafariPushId)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.SafariPushId)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.SafariIcon256x256)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.SafariIcon256x256)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.SiteName)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.SiteName)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.BasicAuthKey)
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.BasicAuthKey)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

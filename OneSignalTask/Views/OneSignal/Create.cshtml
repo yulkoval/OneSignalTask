@@ -1,0 +1,113 @@
+﻿@model OneSignalTask.Domain.Models.App
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>App</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApnsEnv" class="control-label"></label>
+                <input asp-for="ApnsEnv" class="form-control" />
+                <span asp-validation-for="ApnsEnv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApnsP12" class="control-label"></label>
+                <input asp-for="ApnsP12" class="form-control" />
+                <span asp-validation-for="ApnsP12" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApnsP12Password" class="control-label"></label>
+                <input asp-for="ApnsP12Password" class="form-control" />
+                <span asp-validation-for="ApnsP12Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GcmKey" class="control-label"></label>
+                <input asp-for="GcmKey" class="form-control" />
+                <span asp-validation-for="GcmKey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdroidGcmSenderId" class="control-label"></label>
+                <input asp-for="AdroidGcmSenderId" class="form-control" />
+                <span asp-validation-for="AdroidGcmSenderId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChromeWebOrigin" class="control-label"></label>
+                <input asp-for="ChromeWebOrigin" class="form-control" />
+                <span asp-validation-for="ChromeWebOrigin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChromeWebDefaultNotificationIcon" class="control-label"></label>
+                <input asp-for="ChromeWebDefaultNotificationIcon" class="form-control" />
+                <span asp-validation-for="ChromeWebDefaultNotificationIcon" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChromeWebSubDomain" class="control-label"></label>
+                <input asp-for="ChromeWebSubDomain" class="form-control" />
+                <span asp-validation-for="ChromeWebSubDomain" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SiteName" class="control-label"></label>
+                <input asp-for="SiteName" class="form-control" />
+                <span asp-validation-for="SiteName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SafariSiteOrigin" class="control-label"></label>
+                <input asp-for="SafariSiteOrigin" class="form-control" />
+                <span asp-validation-for="SafariSiteOrigin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SafariApnsP12" class="control-label"></label>
+                <input asp-for="SafariApnsP12" class="form-control" />
+                <span asp-validation-for="SafariApnsP12" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SafariApnsP12Password" class="control-label"></label>
+                <input asp-for="SafariApnsP12Password" class="form-control" />
+                <span asp-validation-for="SafariApnsP12Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SafariIcon256x256" class="control-label"></label>
+                <input asp-for="SafariIcon256x256" class="form-control" />
+                <span asp-validation-for="SafariIcon256x256" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChromeKey" class="control-label"></label>
+                <input asp-for="ChromeKey" class="form-control" />
+                <span asp-validation-for="ChromeKey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdditionalDataIsRootPayload" class="control-label"></label>
+                <input asp-for="AdditionalDataIsRootPayload" class="form-control" />
+                <span asp-validation-for="AdditionalDataIsRootPayload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrganizationId" class="control-label"></label>
+                <input asp-for="OrganizationId" class="form-control" />
+                <span asp-validation-for="OrganizationId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
