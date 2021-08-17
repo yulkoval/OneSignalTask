@@ -189,7 +189,7 @@ namespace OneSignalTask.Test
             _mockOneSignalService.Setup(s => s.UpdateAppAsync(editedApp));
 
             //Act
-            var result = await oneSignalController.UpdateAsync(editedApp);
+            var result = await oneSignalController.Edit(editedApp);
 
             //Assert
             var redirectToActionResult = Assert.IsType<RedirectToActionResult>(result);
@@ -209,7 +209,7 @@ namespace OneSignalTask.Test
             };
 
             //Act
-            var result = await oneSignalController.UpdateAsync(editedApp);
+            var result = await oneSignalController.Edit(editedApp);
 
             //Assert
             var viewResult = Assert.IsType<ViewResult>(result);

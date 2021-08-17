@@ -120,7 +120,7 @@ namespace OneSignalTask.Controllers
         /// <returns>Index view if App was updated, else Edit view with entered App's parameters.</returns>
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateAsync(App app)
+        public async Task<IActionResult> Edit(App app)
         {
             if (ModelState.IsValid && app.Name != null)
             {
